@@ -144,3 +144,9 @@ export const ProjectAreaWrapperColumns = styled("div", {
     flexDirection: "column",
   },
 });
+
+export const AboutArea = styled("section", {
+  padding: "30px 0",
+  backgroundColor: "$grey0",
+  borderTop: "2px solid $grey2",
+});

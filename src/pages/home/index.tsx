@@ -25,6 +25,7 @@ import {
   ProjectsAreaSocialMediaMessage,
   ProjectAreaWrapperColumns,
   ProjectsAreaContent,
+  AboutArea,
 } from "./style";
 
 export const Home = (): JSX.Element => {
@@ -47,7 +48,7 @@ export const Home = (): JSX.Element => {
               <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              I{" "}
               <Text as="span" type="heading1" color="brand1">
                 love
               </Text>{" "}
@@ -107,6 +108,60 @@ export const Home = (): JSX.Element => {
           </ProjectAreaWrapperColumns>
         </Container>
       </ProjectsArea>
+      <AboutArea id="about-me">
+        <Container>
+          <Text as="h2" type="heading2" color="grey5">
+            About me
+          </Text>
+          <Text type="body1" color="grey2">
+            <br />
+            I am a software development student specializing in web platforms.
+            With a background in radio frequency engineering and embedded
+            systems programming, I embarked on my development journey in 2021. I
+            consider myself a passionate enthusiast of emerging technologies in
+            the market, continuously learning and expanding my knowledge every
+            day.
+            <br />
+            <br />
+            My primary focus lies in front-end development, utilizing
+            technologies such as JavaScript, TypeScript, React, React Native,
+            and Node.js, among others, to create high-level web and mobile
+            applications with added value. When it comes to the back-end
+            environment, I rely on technologies like Express.js, PostgreSQL,
+            MySQL, and TypeORM to build highly scalable applications.
+            <br />
+            <br />
+            I pride myself on being agile and consistent in learning new
+            technologies, and I possess a high adaptability to change. I am
+            always ready to take on any challenge that comes my way! If I were
+            to define myself in three words, they would undoubtedly be:
+            optimistic, persevering, and dedicated! =D
+            <br />
+            <br />
+            Here's a summary of my skills:
+            <br />
+            <br />
+            Front-end development: HTML5, CSS3, Figma, UX fundamentals, Semantic
+            Web, REST API consumption and construction, Hooks, State Management,
+            Redux, Class Components. Version control: Gitflow, Git/GitHub,
+            Test-Driven Development (TDD), Quality Assurance, Jest, Cypress.
+            Project management and control: JIRA, Trello, Scrum, Agile
+            Methodologies, Kanban, Business Management, Project Management
+            (PMBOK). Tools: Advanced Excel (Macros, VBA, Dashboards), AutoCAD
+            2D/3D.
+            <br />
+            <br />
+            With my diverse background and expertise, I am well-equipped to
+            tackle new challenges and contribute to innovative projects. I am
+            excited about the opportunities that lie ahead, and I am committed
+            to continuous growth and professional development in the field of
+            software development. Let's create something amazing together!
+            <br />
+            <br />
+            <br />
+          </Text>
+        </Container>
+      </AboutArea>
       <Contacts />
     </main>
   );
