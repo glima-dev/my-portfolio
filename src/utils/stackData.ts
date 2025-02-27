@@ -1,5 +1,11 @@
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiPostgresql, SiTypescript, SiMysql, SiMongodb } from "react-icons/si";
+import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
+import {
+  SiPostgresql,
+  SiTypescript,
+  SiMysql,
+  SiMongodb,
+  SiSass,
+} from "react-icons/si";
 import { FaGit, FaPython } from "react-icons/fa";
 import {
   FaDocker,
@@ -20,6 +26,10 @@ export const stackData = [
     img: FaCss3Alt,
   },
   {
+    title: "Sass",
+    img: SiSass,
+  },
+  {
     title: "JS",
     img: FaJs,
   },
@@ -32,8 +42,12 @@ export const stackData = [
     title: "React",
     img: FaReact,
   },
+  {
+    title: "React Native",
+    img: TbBrandReactNative,
+  },
   { title: "Next.js", img: TbBrandNextjs },
-  { title: "Docker", img: FaDocker },
+  /* { title: "Docker", img: FaDocker }, */
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "MySQL", img: SiMysql },
   { title: "MongoDB", img: SiMongodb },
