@@ -50,7 +50,7 @@ export const stackData = [
   /* { title: "Docker", img: FaDocker }, */
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "MySQL", img: SiMysql },
-  { title: "MongoDB", img: SiMongodb },
+  /* { title: "MongoDB", img: SiMongodb }, */
   { title: "Git", img: FaGit },
   { title: "Python", img: FaPython },
 ];
