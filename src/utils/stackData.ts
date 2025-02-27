@@ -47,10 +47,10 @@ export const stackData = [
     img: TbBrandReactNative,
   },
   { title: "Next.js", img: TbBrandNextjs },
-  /* { title: "Docker", img: FaDocker }, */
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "MySQL", img: SiMysql },
-  /* { title: "MongoDB", img: SiMongodb }, */
   { title: "Git", img: FaGit },
   { title: "Python", img: FaPython },
+  /* { title: "MongoDB", img: SiMongodb }, */
+  /* { title: "Docker", img: FaDocker }, */
 ];
